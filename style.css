@@ -4,53 +4,62 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html, body {
+  width: 100%;
   font-family: 'Segoe UI', sans-serif;
   background: #f4f4f4;
   color: #333;
   line-height: 1.6;
-  max-width: 480px;
-  margin: auto;
+  font-size: 16px;
+}
+
+/* Layout */
+body {
+  max-width: 100%;
   padding: 0 1rem;
+  overflow-x: hidden;
 }
 
 /* Header */
 header {
   background: #1a1a1a;
   color: #fff;
-  padding: 2rem 1rem;
   text-align: center;
+  padding: 2rem 1rem;
 }
 .logo img {
-  max-width: 80px;
+  width: 70px;
+  height: auto;
   border-radius: 10px;
   margin-bottom: 0.5rem;
 }
 .logo h1 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .logo p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #ccc;
 }
 
 /* Sections */
 .section {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  margin: 1rem 0;
+  border-radius: 8px;
 }
 .section h2 {
+  font-size: 1.2rem;
+  text-align: center;
   margin-bottom: 1rem;
   color: #444;
-  font-size: 1.4rem;
-  text-align: center;
 }
 
 /* Brand */
 .brand-logo {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  max-width: 280px;
   margin: 1rem auto;
   border-radius: 6px;
 }
@@ -58,15 +67,15 @@ header {
 /* Swiper Slider */
 .swiper-container {
   width: 100%;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 }
 .swiper-slide {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .swiper-slide img {
-  max-width: 100%;
+  width: 90%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -75,8 +84,8 @@ header {
 .btn {
   display: block;
   width: 100%;
-  margin: 0.5rem 0;
   padding: 1rem;
+  margin: 0.5rem 0;
   font-weight: bold;
   color: #fff;
   text-align: center;
@@ -96,10 +105,10 @@ header {
 
 /* Footer */
 footer {
-  text-align: center;
   background: #1a1a1a;
   color: #fff;
+  text-align: center;
   padding: 1rem;
-  font-size: 0.9rem;
-  margin-top: 2rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
