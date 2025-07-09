@@ -2,56 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aura Interiors</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="https://files.catbox.moe/pgdyt4.jpeg" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 
-  <header>
-    <div class="logo">
+  <nav class="navbar">
+    <div class="nav-logo">
       <img src="https://files.catbox.moe/pgdyt4.jpeg" alt="Aura Interiors Logo">
+    </div>
+    <div class="nav-menu">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#clients">Clients</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
       <h1>Aura Interiors</h1>
       <p>Your imagination into Reality</p>
     </div>
   </header>
 
-  <section id="portfolio" class="section">
+  <section id="portfolio" class="section portfolio-grid">
     <h2>Our Work</h2>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="https://files.catbox.moe/qhz875.jpeg" alt="Portfolio 1"></div>
-        <div class="swiper-slide"><img src="https://files.catbox.moe/e7eqna.jpeg" alt="Portfolio 2"></div>
-        <div class="swiper-slide"><img src="https://files.catbox.moe/15zz6q.jpeg" alt="Portfolio 3"></div>
-        <div class="swiper-slide"><img src="https://files.catbox.moe/rvvmu6.jpeg" alt="Portfolio 4"></div>
-        <div class="swiper-slide"><img src="https://files.catbox.moe/4spk42.jpeg" alt="Portfolio 5"></div>
-      </div>
-      <div class="swiper-pagination"></div>
+    <div class="grid-container">
+      <div class="grid-item" style="background-image:url('https://files.catbox.moe/qhz875.jpeg');"></div>
+      <div class="grid-item" style="background-image:url('https://files.catbox.moe/e7eqna.jpeg');"></div>
+      <div class="grid-item" style="background-image:url('https://files.catbox.moe/15zz6q.jpeg');"></div>
+      <div class="grid-item" style="background-image:url('https://files.catbox.moe/rvvmu6.jpeg');"></div>
+      <div class="grid-item" style="background-image:url('https://files.catbox.moe/4spk42.jpeg');"></div>
     </div>
   </section>
 
   <section id="clients" class="section">
-    <h2>Companies We've Worked With</h2>
-    <img src="https://files.catbox.moe/0eqpfy.jpeg" alt="Veterans Logo" class="brand-logo">
+    <h2>Clients</h2>
+    <img src="https://files.catbox.moe/0eqpfy.jpeg" alt="Veterans Logo" class="brand-logo" />
   </section>
 
   <section id="about" class="section">
     <h2>About Us</h2>
-    <p>We manufacture modular interiors and have a factory at Sarjapura Road. We offer 10 years warranty on materials and have over a decade of experience working with veterans like Veterans Interiors and Sai Gallerium.</p>
+    <p>We manufacture modular interiors at our Sarjapura Road factory, offer 10-year warranty on materials, and have over a decade of experience working with veterans like Veterans Interiors and Sai Gallerium.</p>
   </section>
 
   <section id="contact" class="section">
     <h2>Contact Us</h2>
     <a class="btn" href="mailto:trivenigadagi@gmail.com">📧 Email Us</a>
-    <a class="btn whatsapp" href="https://wa.me/+919900364399?text=I'd%20like%20more%20information%20about%20your%20services" target="_blank">💬 WhatsApp 1</a>
-    <a class="btn whatsapp" href="https://wa.me/+919066618112?text=I'd%20like%20more%20information%20about%20your%20services" target="_blank">💬 WhatsApp 2</a>
+    <a class="btn whatsapp" href="https://wa.me/+919900364399?text=I'd%20like%20more%20information" target="_blank">💬 WhatsApp 1</a>
+    <a class="btn whatsapp" href="https://wa.me/+919066618112?text=I'd%20like%20more%20information" target="_blank">💬 WhatsApp 2</a>
     <a class="btn instagram" href="https://www.instagram.com/aurainteriors4399" target="_blank">📷 Instagram</a>
   </section>
 
   <footer>
-    <p>© 2013-2025 Aura Interiors. Website developed by RDJ-JEFF.</p>
+    <p>© 2013-2025 Aura Interiors. Website by RDJ-JEFF.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
