@@ -19,7 +19,7 @@ body { overflow-x:hidden; }
 /* Hero Banner */
 .hero {
   height:60vw; max-height:320px;
-  background: url('https://files.catbox.moe/qhz875.jpeg') center/cover no-repeat;
+  background: url('https://files.catbox.moe/pgdyt4.jpeg') center/cover no-repeat;
   display:flex; align-items:center; justify-content:center;
 }
 .hero-content { background:rgba(0,0,0,0.4); padding:1rem 1.5rem; border-radius:8px; }
